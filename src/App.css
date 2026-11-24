@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.status {
+  margin: 15px 0;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin: 0 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.board {
+  width: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 2px;
+}
+
+.cell {
+  border: 1px solid #ccc;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
